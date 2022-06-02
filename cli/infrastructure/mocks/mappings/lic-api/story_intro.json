@@ -1,0 +1,20 @@
+{
+  "request": {
+    "method": "GET",
+    "urlPathPattern": "/lic-api/characters/.*"
+  },
+  "response": {
+    "status": 200,
+    "transformers": ["response-template"],
+    "jsonBody": {
+      "id": 1823,
+      "name": "Yanzito",
+      "level": 12,
+      "class": "as",
+      "location": "Prontera"
+    },
+    "headers": {
+      "Content-Type": "application/json"
+    }
+  }
+}

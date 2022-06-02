@@ -1,0 +1,13 @@
+{
+  "request": {
+    "method": "POST",
+    "url": "/lic-api/characters"
+  },
+  "response": {
+    "status": 200,
+    "bodyFileName": "./lic-api/all-characters.json",
+    "headers": {
+      "Content-Type": "application/json"
+    }
+  }
+}

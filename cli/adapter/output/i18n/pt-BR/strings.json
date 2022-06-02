@@ -1,0 +1,18 @@
+{
+  "welcome": "Bem-vindo(a),",
+  "welcome_lic": "Bem-vindo(a) ao Life in Code (LIC)",
+  "please_login": "Por favor, faça login",
+  "username": "usuário",
+  "password": "senha",
+  "character_select": "Por favor, escolha um personagem",
+  "new_character": "criar novo personagem",
+  "new_gender": "Escolha o sexo",
+  "new_name": "Digite o nome do personagem novo",
+  "new_class": "Escolha a classe",
+  "male": "Masculino",
+  "female": "Feminino",
+  "warrior": "Guerreiro",
+  "mage": "Mago",
+  "archer": "Arqueiro",
+  "warlock": "Bruxo"
+}

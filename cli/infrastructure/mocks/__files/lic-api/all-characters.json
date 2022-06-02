@@ -1,0 +1,14 @@
+{
+  "characters": [
+    {
+      "name": "Yanzika",
+      "level": 99,
+      "class": "Knight"
+    },
+    {
+      "name": "Yanzito",
+      "level": 99,
+      "class": "Mage"
+    }
+  ]
+}
