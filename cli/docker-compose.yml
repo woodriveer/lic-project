@@ -1,0 +1,12 @@
+version: '3'
+
+services:
+  mock:
+    image: wiremock/wiremock:latest
+    container_name: lic-cli-mock
+    volumes:
+      - ./infrastructure/mocks/__files:/home/wiremock/__files
+      - ./infrastructure/mocks/mappings:/home/wiremock/mappings
+    ports:
+      - "9001:8080"
+    command: "--verbose --local-response-templating"

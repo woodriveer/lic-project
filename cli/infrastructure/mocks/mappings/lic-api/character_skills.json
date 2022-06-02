@@ -1,11 +1,12 @@
 {
+  "priority": 1,
   "request": {
     "method": "GET",
-    "url": "/lic-api/characters"
+    "url": "/lic-api/characters/91923/skills"
   },
   "response": {
     "status": 200,
-    "bodyFileName": "./lic-api/all-characters.json",
+    "bodyFileName": "./lic-api/character-skills.json",
     "headers": {
       "Content-Type": "application/json"
     }

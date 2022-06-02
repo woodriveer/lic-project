@@ -1,18 +1,28 @@
 {
-  "characters": [
+  "skills": [
     {
-      "id": 91923,
-      "name": "Yanzika",
-      "level": 99,
-      "class": "Knight",
-      "location": "Dragon's Dungeon"
+      "name": "Attack",
+      "level": 0,
+      "power": 100,
+      "type": "Active"
     },
     {
-      "id": 92123,
-      "name": "Yanzito",
-      "level": 99,
-      "class": "Mage",
-      "location": "Prontera"
+      "name": "Double Strike",
+      "level": 5,
+      "power": 150,
+      "type": "Active"
+    },
+    {
+      "name": "Quick Attack",
+      "level": 3,
+      "power": 70,
+      "type": "Active"
+    },
+    {
+      "name": "Empower",
+      "level": 5,
+      "power": 200,
+      "type": "Buff"
     }
   ]
 }

@@ -13,7 +13,7 @@ func Localize(messageId string, region string) string {
 	if dirErr != nil {
 		log.Fatal(dirErr)
 	}
-	file, err := os.Open(dir + "/i18n/" + region + "/strings.json")
+	file, err := os.Open(dir + "/adapter/output/i18n/" + region + "/strings.json")
 	if err != nil {
 		log.Fatal(err)
 	}

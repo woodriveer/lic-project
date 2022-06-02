@@ -1,20 +1,14 @@
 {
   "request": {
     "method": "GET",
-    "urlPathPattern": "/lic-api/characters/.*"
+    "urlPathPattern": "/lic-api/dungeons/intro/.*"
   },
   "response": {
     "status": 200,
     "transformers": ["response-template"],
-    "jsonBody": {
-      "id": 1823,
-      "name": "Yanzito",
-      "level": 12,
-      "class": "as",
-      "location": "Prontera"
-    },
+    "body": "Essa é a caverna do dragão",
     "headers": {
-      "Content-Type": "application/json"
+      "Content-Type": "text/plain"
     }
   }
 }

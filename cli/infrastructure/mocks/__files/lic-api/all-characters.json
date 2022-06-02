@@ -1,14 +1,18 @@
 {
   "characters": [
     {
+      "id": 91923,
       "name": "Yanzika",
       "level": 99,
-      "class": "Knight"
+      "class": "Knight",
+      "location": "Dragon's Dungeon"
     },
     {
+      "id": 91923,
       "name": "Yanzito",
       "level": 99,
-      "class": "Mage"
+      "class": "Mage",
+      "location": "Prontera"
     }
   ]
 }
